@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-box {
+  display: flex;
+  width: 1500px;  
+  margin: 30px;
+  margin-left: 40px;
+}
+
+
+.item-box-1 {
+  margin: auto;
+  display: flex;
+  width: 1370px;
+  background-color: white;
+}
+
+.item-box-2 {
+  margin: auto;
+  display: flex;
+  width: 1370px;
+  background-color: white;
+}
+.item-box-3 {
+  margin: auto;
+  display: flex;
+  width: 1370px;
+  background-color: white;
+}
+.item-content {
+  margin-top: 50px;
+  line-height: 30px;
+  margin-left: 100px;
+  width: 900px;
+}
+#barfee-racepee {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  display: inline;
+}
+#gulabjamun {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  display: inline;
+}
+#jalabie{
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  display: inline;
+}
+#ingredients {
+  font-size: 30px;
+}
+#instructions {
+  font-size: 30px;
+}
+#procedure {
+  font-size: 30px;
+}
+.item-image {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 20px;
+}
+.item-image img {  
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.2s ease;
+}
+.item-image img:hover{ 
+  transform: scale(1.1);  
+}
+
+.footer-container {
+  display: flex;
+
+  justify-content: center;
+  margin-left: 10px;
+  width: 1580px;
+  height: 30px;
+  border: 1px solid black;
+  background-image: linear-gradient(
+    179.7deg,
+    rgba(249, 21, 215, 1) 1.1%,
+    rgba(22, 0, 98, 1) 99%
+  );
+}
+.footer-container p {
+  font-size: 20px;
+  color: white;
+}
+
+/* This is Nav Coding */
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    68.6deg,
+    rgba(79, 183, 131, 1) 14.4%,
+    rgba(254, 235, 151, 1) 92.7%
+  );
+  width: 1600px;
+  height: 2300px;
+}
+
+.navContainer {
+  margin-left: 10px;
+  width: 1580px;
+  height: 60px;
+  border: 1px solid black;
+  background-image: linear-gradient(
+    179.7deg,
+    rgba(249, 21, 215, 1) 1.1%,
+    rgba(22, 0, 98, 1) 99%
+  );
+}
+#sweet-shop {
+  font-size: 28px;
+  color: white;
+}
+#nav-list {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 28px;
+  list-style: none;
+}
+.nav-items {
+  display: flex;
+  gap: 30px;
+}
+.nav-items a {
+  color: white;
+  text-decoration: none;
+}
